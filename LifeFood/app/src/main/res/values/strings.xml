@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Life Food</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="profile_name">Unknow</string>
+    <string name="close">Close</string>
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="store_category_static_value">
+        <item>Home</item>
+        <item>Mango</item>
+        <item>Milk</item>
+        <item>Ghee</item>
+        <item>Wheat</item>
+        <item>Bhajara</item>
+    </string-array>
+    <string-array name="product_quantity">
+        <item>1kg</item>
+        <item>2kg</item>
+        <item>3kg</item>
+    </string-array>
+</resources>

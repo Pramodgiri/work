@@ -1,0 +1,2 @@
+rootProject.name='LifeFood'
+include ':app'

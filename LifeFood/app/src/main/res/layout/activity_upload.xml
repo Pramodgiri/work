@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Sale your fresh Product"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ButtonChooseImage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowImageView"
+            android:layout_marginTop="30dp"
+            android:text="Choose Image" />
+
+        <Button
+            android:id="@+id/ButtonUploadImage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/store_category"
+            android:layout_marginTop="30dp"
+            android:text="Upload Product" />
+
+        <Button
+            android:id="@+id/DisplayImagesButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ButtonUploadImage"
+            android:layout_marginTop="60dp"
+            android:text="Show All Uploaded Product" />
+
+
+        <EditText
+            android:id="@+id/ImageNameEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ButtonChooseImage"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:hint="Product Good Name" />
+
+        <ImageView
+            android:id="@+id/ShowImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/textview"
+            android:layout_marginTop="30dp" />
+
+        <Spinner
+            android:id="@+id/store_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/ImageNameEditText"
+            android:layout_marginTop="30dp" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

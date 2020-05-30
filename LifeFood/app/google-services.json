@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "859945017685",
+    "firebase_url": "https://lifefood-3a8c3.firebaseio.com",
+    "project_id": "lifefood-3a8c3",
+    "storage_bucket": "lifefood-3a8c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859945017685:android:2e9bfeec3a08896f4bcfdc",
+        "android_client_info": {
+          "package_name": "com.dev.app.lifefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859945017685-nrnm2r1h626d6410tebrf6521honqc61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwCMGbVWBgab1KVoDkBDQ2Zrw5IdVJRz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859945017685-nrnm2r1h626d6410tebrf6521honqc61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
